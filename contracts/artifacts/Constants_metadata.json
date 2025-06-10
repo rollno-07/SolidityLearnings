@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDR",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getConstant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/constant.sol": "Constants"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/constant.sol": {
+			"keccak256": "0x443da73e800c13f27e81429fdabab02ccc759ca1b14254b8d979400e03571f1b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ebc029c32af431864b478ab435ce61e1ff58442930ed516c8e51075804cfbba2",
+				"dweb:/ipfs/QmS5RoUjD2NWUwihPs2QkXWN4JHF1Jn3F1W48LjCXfjVAe"
+			]
+		}
+	},
+	"version": 1
+}
