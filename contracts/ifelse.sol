@@ -19,4 +19,8 @@ contract IfElse{
             return myString;
         }
     }
+
+    function shortHand(uint256 _num) public view returns(string memory _result)  {
+        return _num==num1 ? "hey the value of num1 is 60": myString;
+    }
 }

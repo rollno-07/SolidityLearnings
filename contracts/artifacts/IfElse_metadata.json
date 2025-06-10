@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "myString",
 				"outputs": [
@@ -39,7 +58,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "printGreater",
+				"name": "shortHand",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -47,7 +66,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -79,11 +98,11 @@
 	},
 	"sources": {
 		"contracts/ifelse.sol": {
-			"keccak256": "0x512ada4e8cff706e73b5ea5045e6a6e6a6812355f251af34d929b16494bce164",
+			"keccak256": "0x02969a6f99734e6ee85cc75bc6e45c4eb8ac14080ba3011d3ee4676abfd2e74b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://67b88f358e1a3ca840bd08556cd83f6450ca10a796931990c39b609b155b7f7a",
-				"dweb:/ipfs/QmUeY25hCdHvxv79V715pWUEY74VA8NUwwvppKBTTDCKuZ"
+				"bzz-raw://8fdf1b452add2c8943df2613f3fa68064fec7f175ba8718060d839b979e9a48a",
+				"dweb:/ipfs/QmYS2iXVTw6kywxvgRgpbHMiq4pztDKVCRk6FWh8GpYurR"
 			]
 		}
 	},
